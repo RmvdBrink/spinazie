@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inpute list</title>
+</head>
+<body>
+
+<P>Dit is een tekstveld</P>
+<input type="tekst" />
+
+<p> Dit is een emailveld</p>
+<input type="email" />
+
+<p>Dit is een wachtwoordveld</p>
+<input type="password" />
+
+<p>Dit is een chekbox</p>
+<input type="chekbox" />
+
+<p>Dit is een radiobutton</p>
+<input type="radio" />
+
+<p>Dit is een slider</p>
+<input type="range" />
+
+<p>Dit is een nummeriek</p>
+<input type="number" />
+
+<p>Dit is een datumveld</p>
+<input type="date" />
+
+<p>Dit is een bestandupload</p>
+<input type="file" />
+
+<p>Dit is een kleurkiezer</p>
+<input type="color" />
+
+<!--&lt;!&ndash;&lt;!&ndash;label en input los -->
+<p><label for="user-email-field">Email:</label>
+  <input for="email id="user-email-field"/></p>
+
+<p><label for="user-newsletter-field>"></label>
+<input type="checkbox" id="use-nuwsletter-field"/>
+</p>
+
+<P><form onsubmit="hier-hebben-we-js-voor-nodig">
+    <label for="name-field">Naam</label>
+    <input type="text" id="name-field" name="name"/>
+
+    <label for="dob-field">Geboortedatum</label>
+    <input type="date" id="dob-field" name="dob"/>
+
+    <label for="birthplace-field">Geboorteplaats</label>
+    <input type="text" id="birthplace-field" name="birthplace"/>
+
+    <button type="submit">Verzenden</button>
+</form></P>
+
+<P><form onsubmit="hier-hebben-we-js-voor-nodig">
+
+    <p>Kies een tortilla:</p>
+    <label for="whole-weat-radio">
+        <input type="radio" id="whole-weat-radio" value="whole-weat-tortilla" name="type"/>
+        Meergranen
+    </label>
+
+    <label for="normal-radio">
+        <input type="radio" id="normal-radio" value="normal-tortilla" name="type" />
+        Normaal
+    </label>
+
+    <p>Kies toppings:</p>
+    <label for="cheese-checkbox">
+        <input type="checkbox" id="cheese-checkbox" value="cheese-topping" name="toppings" />
+        Kaas
+    </label>
+
+    <label for="avocado-checkbox">
+        <input type="checkbox" id="avocado-checkbox" value="avocado-topping" name="toppings" />
+        Avocado
+    </label>
+
+    <label for="salsa-checkbox">
+        <input type="checkbox" id="salsa-checkbox" value="salsa-topping" name="toppings" />
+        Salsa
+    </label>
+
+    <button type="submit">Verzenden</button>
+</form></P>
+
+</body>
+</html>
